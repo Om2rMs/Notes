@@ -1,5 +1,5 @@
 import React, { setState, useState } from "react";
-import './AddNote.css'
+import './../Note/Note.css'
 import { MdAddCircle } from 'react-icons/md'
 
 

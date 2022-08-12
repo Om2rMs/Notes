@@ -7,7 +7,7 @@ const Note = ({ id, text, date, deleteNote }) => {
     return (
         <div className="note">
             <div className="textarea-container">
-                <textarea disabled="disable"
+                <textarea
                     className="textarea"
                     value={text}
                 >
