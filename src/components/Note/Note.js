@@ -8,7 +8,6 @@ const Note = ({ id, text, date, deleteNote }) => {
         <div className="note">
             <div className="textarea-container">
                 <textarea
-                    disabled
                     className="textarea"
                     value={text}
                 >
