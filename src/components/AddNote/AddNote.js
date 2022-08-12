@@ -7,7 +7,7 @@ import { MdAddCircle } from 'react-icons/md'
 const AddNote = ({ handleAddNote }) => {
 
     const [noteText, setNoteText] = useState('');
-    const limit = 200;
+    const limit = 800;
 
 
     const handleChange = (e) => {
@@ -36,7 +36,7 @@ const AddNote = ({ handleAddNote }) => {
                 </textarea>
             </div>
             <div className="note-footer">
-                <small className="remain">كلمة {limit - noteText.length}</small>
+                <small className="remain">حرف {limit - noteText.length}</small>
                 <MdAddCircle
                     onClick={handleSaveClick}
                     className="save"
