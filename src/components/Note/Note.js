@@ -8,7 +8,7 @@ const Note = ({ id, text, date, deleteNote }) => {
         <div className="note">
             <div className="textarea-container">
                 <textarea
-                    className="textarea"
+                    className="textarea past"
                     value={text}
                 >
                 </textarea>
