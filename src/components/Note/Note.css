@@ -1,0 +1,73 @@
+.note {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 50px;
+    background-image: url('./../../images/flower3.jpeg');
+    background-size: contain;
+    white-space: pre-wrap;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 12);
+
+
+}
+
+
+.textarea-container {
+    margin: 16px;
+    margin-left: 90px;
+}
+
+.textarea {
+    text-align: right;
+    font-family: 'Lemonada', cursive;
+    height: 220px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 15px;
+    line-height: 18px;
+    font-size: 12px;
+    color: rgb(28, 31, 31);
+    background: none;
+    border: none;
+    direction: rtl;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+
+.delete-icon {
+    cursor: pointer;
+}
+
+.delete-icon:hover {
+    color: red;
+}
+
+
+.remain {
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+.save:hover {
+    color: green;
+}
+
+.note-footer {
+    border: 1px solid #000;
+    border-radius: 30px;
+    width: 200px;
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+    margin-right: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 12);
+
+}
